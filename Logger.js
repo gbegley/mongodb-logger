@@ -33,7 +33,7 @@ var Logger = function(){
     this.formatRow = function(ar, l) {
         var sa = [];
         ar.forEach(function(ai) {
-            sa.push(pad(ai, l))
+            sa.push(pad(ai, l, ' '))
         });
         return sa.join("");
     };
