@@ -64,7 +64,7 @@ var Logger = function(){
     };
 
     this.error = function( m ){
-        this.og(this.ERROR,m);
+        this.log(this.ERROR,m);
     };
 
     this.json = function( lvl, m, o ) {
